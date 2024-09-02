@@ -1,0 +1,171 @@
+/* Estilos da pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #f00;    
+    margin: 0;
+    padding: 0;
+}
+
+/* cabeçalho e o menu */
+header {
+    background-color: #111;
+    padding: 10px 0;
+}
+
+/* estilo de paragrafos */
+p{
+    font-family: unset;
+    font-size: larger;
+
+}
+/* estilo de texto cabeçalho */
+h1{
+    font-family: unset;
+    
+}
+/* estilo do foot */
+.foot{
+    font-family: cursive;
+    font-size: medium;
+}
+/* Estilo do menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #f00;
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+}
+
+/* conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #111;
+    color: #f00;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #f00;
+    background-color: #222;
+    color: #f00;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f00;
+}
+/* foto de perfil */
+.perfil {
+    width: 170px; 
+    height: 170px; 
+    border-radius: 50%; 
+    overflow: hidden;
+    border: 2px groove red ;
+}
+
+/* Estilo para modo diurno */
+body {
+    background-color: #ffffff;
+    color: black;
+}
+
+header, footer {
+    background-color: red;
+    color: black;
+}
+
+nav ul li a {
+    color: white;
+}
+
+/* Estilo para modo noturno */
+body.dark-mode {
+    background-color: #121212;
+    color: red;
+}
+
+header.dark-mode, footer.dark-mode {
+    background-color: #1e1e1e;
+    color: red;
+}
+
+nav ul li a.dark-mode {
+    color: red;
+}
+
+/* Estilo padrão do botão */
+#toggle-theme {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 50px;
+    cursor: crosshair;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilo do botão no modo noturno */
+body.dark-mode #toggle-theme {
+    background-color: #ffffff;
+    color: #ff0000;
+}
+
+/* Efeito de hover para o botão */
+#toggle-theme:hover {
+    background-color: #000000;
+}
+
+/* Efeito de hover no modo noturno */
+body.dark-mode #toggle-theme:hover {
+    background-color: #020000;
+}
+
